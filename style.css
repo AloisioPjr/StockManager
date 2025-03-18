@@ -42,16 +42,11 @@ li {
   align-items: center;
 }
 
-li.out-of-stock {
-  border-left-color: #dc3545;
-  opacity: 0.6;
-}
 
 .buttons button {
   margin-left: 5px;
   padding: 5px 8px;
   border: none;
-  cursor: pointer;
   border-radius: 4px;
 }
 
