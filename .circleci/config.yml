@@ -1,0 +1,22 @@
+version: 2.1
+
+jobs: # define the jobs that will be executed in the workflow
+  build: 
+    docker:
+      - image: cimg/node:18.16.0  
+    steps:
+      - checkout # check out the code in the project directory
+      - run: # run the following commands
+          name: Install dependencies 
+          command: npm install
+      - run:
+          name: Run tests
+          command: npm test
+      - run:
+          name: Build project
+          command: npm run build
+
+workflows: # define the workflow that will be executed
+  build_and_test:
+    jobs:
+      - build
