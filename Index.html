@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Stock Manager App</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stock Management App</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <h1> Stock Management App</h1>
   <div class="container">
-    <h1>Stock Manager</h1>
-    <div class="task-form">
-      <input type="text" id="task-input" placeholder="Enter a new task" />
-      <button onclick="addTask()">Add Task</button>
-    </div>
-    
-    <ul id="task-list"></ul>
+    <form id="productForm">
+      <input type="text" id="productName" placeholder="Product Name" required />
+      <input type="number" id="productQuantity" placeholder="Quantity" required />
+      <button type="submit">Add Product</button>
+    </form>
+
+    <ul id="productList"></ul>
   </div>
+
 
   <script src="script.js"></script>
 </body>
