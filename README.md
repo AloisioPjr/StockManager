@@ -8,7 +8,7 @@ Technologies Used:
 
 HTML, CSS, JavaScript, CircleCI CI/CD Pipeline, AWS EC2.
 
-![alt text](src\assets\image.png)
+![alt text](src/assets/image.png)
 
 Developer:
 
