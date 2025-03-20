@@ -15,8 +15,3 @@ Developer:
 Aloisio(Ali) Pereira Junior
 Email address:
 x21211027@outlook.com 
-```bash
-`[![Copy](https://img.shields.io/badge/-Copy%20Code-blue?style=flat&logo=github)](#)`
-```
-```markdown
-[![Copy](https://img.shields.io/badge/-Copy%20Code-blue?style=flat&logo=github)](#)
